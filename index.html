@@ -9,7 +9,7 @@
     <title>Triple Expresso</title>
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,7 +28,7 @@
           />
           <ul class="nav__links">
             <li class="nav__link">
-              <a href="#" class="nav__anchor">Receitas</a>
+              <a href="#recipes" class="nav__anchor">Receitas</a>
             </li>
             <li class="nav__link">
               <a href="#" class="nav__anchor">Reservar uma mesa</a>
@@ -63,7 +63,46 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <h3 class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </h3>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/JvRkOu5WGH0?si=RqT6yMf9WlEcVbCV"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__div-caption">
+                <p class="recipes__video-caption">
+                  Pão de chocolate com banana
+                </p>
+                <p class="recipes__video-caption">~2:25 min</p>
+              </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/hEVZs4mU7ac?si=dDFjfFflaMdDd0Gw"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__div-caption">
+                <p class="recipes__video-caption">
+                  Hamburguer de frango com aveia
+                </p>
+                <p class="recipes__video-caption">~3:42 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>

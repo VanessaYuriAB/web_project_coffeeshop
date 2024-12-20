@@ -22,13 +22,13 @@
   flex-wrap: wrap;
 }
 
-.header__nav {
+.nav-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.nav__logo {
+.nav-header__logo {
   width: 105px;
   height: 39px;
   position: relative;
@@ -36,7 +36,7 @@
   left: 30px;
 }
 
-.nav__links {
+.nav-header__links {
   display: flex;
   column-gap: 20px;
   list-style-type: none;
@@ -44,12 +44,12 @@
   margin: 30px 80px 0 0;
 }
 
-.nav__link {
+.nav-header__link {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
 }
 
-.nav__anchor {
+.nav-header__anchor {
   text-decoration: none;
   color: #000000;
 }

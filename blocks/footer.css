@@ -16,7 +16,7 @@
   height: 39px;
 }
 
-.footer_circle {
+.footer__circle {
   width: 340px;
   height: 340px;
   border-radius: 50%;
@@ -44,25 +44,16 @@
   color: #ffffff;
 }
 
-<<<<<<< HEAD
-=======
-.footer__list-item {
-}
-
->>>>>>> 5cd552de4b00faa2f5b0a4cb17db5f308622e774
 .footer__social-link {
   display: flex;
   column-gap: 10px;
   align-items: center;
-<<<<<<< HEAD
   text-decoration: none;
   color: #ffffff;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
-=======
->>>>>>> 5cd552de4b00faa2f5b0a4cb17db5f308622e774
 }
 
 .footer__social-icon {

@@ -45,8 +45,8 @@ A página da Cafeteria Triple é nosso quarto projeto no bootcamp de Desenvolvim
 - BEM Flat
   ![alt text](./images/README/Bem-flat1_index-page-header.png)
   ![alt text](./images/README/Bem-flat2_index-nav-recipes.png)
-  ![alt text](<./images/README/Bem-flat3_index-reservation-form.png)
-  ![alt text](<./images/README/Bem-flat4_index-reservation-normalize.png)
+  ![alt text](./images/README/Bem-flat3_index-reservation-form.png)
+  ![alt text](./images/README/Bem-flat4_index-reservation-normalize.png)
 
 # Planos de melhoria do projeto:
 

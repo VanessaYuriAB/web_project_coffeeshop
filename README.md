@@ -5,40 +5,48 @@ A página da Cafeteria Triple é nosso quarto projeto no bootcamp de Desenvolvim
 # Recursos do projeto:
 
 - HTML5 semântico
-  ![alt text](<./images/README/Captura de Tela (32).png>)
-  ![alt text](<./images/README/Captura de Tela (46).png>)
-  ![alt text](<./images/README/Captura de Tela (47).png>)
-  ![alt text](<./images/README/Captura de Tela (48).png>)
-  ![alt text](<./images/README/Captura de Tela (49).png>)
-  ![alt text](<./images/README/Captura de Tela (50).png>)
-  ![alt text](<./images/README/Captura de Tela (51).png>)
-  ![alt text](<./images/README/Captura de Tela (52).png>)
+  ![alt text](./images/README/Semantica1_html.png)
+  ![alt text](./images/README/Semântica2_head.png)
+  ![alt text](./images/README/Semântica3_header.png)
+  ![alt text](./images/README/Semântica4_main.png)
+  ![alt text](./images/README/Semântica5_section-recipes.png)
+  ![alt text](./images/README/Semântica6_section-reservation.png)
+  ![alt text](./images/README/Semântica7_footer.png)
 
 - Flexbox
-  ![alt text](<./images/README/Captura de Tela (33).png>)
+  ![alt text](./images/README/Flexbox1_justify-content.png)
+  ![alt text](./images/README/Flexbox2_flex-direction.png)
+  ![alt text](./images/README/Flexbox3_align-items.png)
 
 - Posicionamento
-  ![alt text](<./images/README/Captura de Tela (34).png>)
+  ![alt text](./images/README/Posicionamento1_relative.png)
+  ![alt text](./images/README/Posicionamento2_absolute.png)
 
 - Google Fonts
-  ![alt text](<./images/README/Captura de Tela (35).png>)
+  ![alt text](./images/README/Google-fonts.png)
 
-- Pseudoclasses e pseudoelementos
-  ![alt text](<./images/README/Captura de Tela (37).png>)
+- Pseudoclasses
+  ![alt text](./images/README/Pseudoclasses1_checkbox.png)
+  ![alt text](./images/README/Pseudoclasses2_checked.png)
+  ![alt text](./images/README/Pseudoclasses3_disabled.png)
+  ![alt text](./images/README/Pseudoclasses4_focus.png)
+  ![alt text](./images/README/Pseudoclasses5_disabled-checked.png)
+
+- Pseudoelementos
+  ![alt text](./images/README/Pseudoelementos1_placeholder.png)
+  ![alt text](./images/README/Pseudoelementos2_placeholder.png)
 
 - Incorporação de conteúdo: <iframe>
-  ![alt text](<./images/README/Captura de Tela (38).png>)
+  ![alt text](./images/README/Incorporação-de-conteúdo_iframe.png)
 
 - Formulários
-  ![alt text](<./images/README/Captura de Tela (39).png>)
-  ![alt text](<./images/README/Captura de Tela (40).png>)
-  ![alt text](<./images/README/Captura de Tela (41).png>)
+  ![alt text](./images/README/Formulário.png)
 
 - BEM Flat
-  ![alt text](<./images/README/Captura de Tela (42).png>)
-  ![alt text](<./images/README/Captura de Tela (43).png>)
-  ![alt text](<./images/README/Captura de Tela (44).png>)
-  ![alt text](<./images/README/Captura de Tela (45).png>)
+  ![alt text](./images/README/Bem-flat1_index-page-header.png)
+  ![alt text](./images/README/Bem-flat2_index-nav-recipes.png)
+  ![alt text](<./images/README/Bem-flat3_index-reservation-form.png)
+  ![alt text](<./images/README/Bem-flat4_index-reservation-normalize.png)
 
 # Planos de melhoria do projeto:
 

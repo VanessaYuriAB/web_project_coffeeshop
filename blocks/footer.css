@@ -1,30 +1,31 @@
 .footer {
   background-color: #0a2850;
+  padding: 60px 80px;
   position: relative;
-  z-index: -2;
+  overflow: hidden;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 60px 80px 108px;
 }
 
 .footer__logo {
   width: 105px;
   height: 39px;
+  position: relative;
+  z-index: 1;
 }
 
 .footer__circle {
+  background-color: #2f80ed;
   width: 340px;
   height: 340px;
   border-radius: 50%;
-  background-color: #2f80ed;
   position: absolute;
   top: -128px;
   left: -44px;
-  z-index: -1;
 }
 
 .footer__social-heading {
@@ -52,6 +53,10 @@
   color: #ffffff;
 }
 
+.footer__social-link:focus {
+  color: #c1c1c1;
+}
+
 .footer__social-link:hover {
   color: #c1c1c1;
 }
@@ -62,7 +67,9 @@
 }
 
 .footer__copyright {
-  margin: 0;
-  padding: 0 0 60px 80px;
+  margin-top: 108px;
+  margin-bottom: 0;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
 }

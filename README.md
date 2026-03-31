@@ -1,54 +1,202 @@
-# Projeto 4: Triple Espresso
+# ☕ Projeto 4: Triple Espresso
 
-A página da Cafeteria Triple é nosso quarto projeto no bootcamp de Desenvolvimento Web da Triple Ten. Construída com HTML e CSS avançado, com menos instruções de roteiro.
+A página da Cafeteria Triple Espresso é o quarto projeto do bootcamp de Desenvolvimento Web da TripleTen.
 
-# Recursos do projeto:
+O projeto foi desenvolvido com HTML e CSS avançados, contando com menos instruções de roteiro em comparação aos projetos anteriores, exigindo maior autonomia na implementação do layout e dos estilos.
+
+---
+
+## 🎯 Objetivo do projeto
+
+- Consolidar o uso de **HTML5 semântico**
+- Criar layouts flexíveis utilizando **Flexbox**
+- Trabalhar posicionamento de elementos
+- Aplicar **pseudoclasses e pseudoelementos**
+- Desenvolver formulários estilizados
+- Utilizar **BEM Flat** para organização do código CSS
+- Incorporar conteúdo externo com `<iframe>`
+
+---
+
+## 🛠️ Técnicas e recursos aplicados
+
+HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoelementos, Incorporação de conteúdo (iframe), Formulários e BEM (Flat).
 
 - HTML5 semântico
-  ![alt text](./images/README/Semantica1_html.png)
-  ![alt text](./images/README/Semântica2_head.png)
-  ![alt text](./images/README/Semântica3_header.png)
-  ![alt text](./images/README/Semântica4_main.png)
-  ![alt text](./images/README/Semântica5_section-recipes.png)
-  ![alt text](./images/README/Semântica6_section-reservation.png)
-  ![alt text](./images/README/Semântica7_footer.png)
+
+<img
+  src="./images/README/Semantica1_html.png"
+  alt="HTML5 semântico 1"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica2_head.png"
+  alt="HTML5 semântico 2"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica3_header.png"
+  alt="HTML5 semântico 3"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica4_main.png"
+  alt="HTML5 semântico 4"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica5_section-recipes.png"
+  alt="HTML5 semântico 5"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica6_section-reservation.png"
+  alt="HTML5 semântico 6"
+  width="800"
+/>
+<img
+  src="./images/README/Semântica7_footer.png"
+  alt="HTML5 semântico 7"
+  width="800"
+/>
 
 - Flexbox
-  ![alt text](./images/README/Flexbox1_justify-content.png)
-  ![alt text](./images/README/Flexbox2_flex-direction.png)
-  ![alt text](./images/README/Flexbox3_align-items.png)
+
+<img
+  src="./images/README/Flexbox1_justify-content.png"
+  alt="Flexbox 1"
+  width="800"
+/>
+<img
+  src="./images/README/Flexbox2_flex-direction.png"
+  alt="Flexbox 2"
+  width="800"
+/>
+<img
+  src="./images/README/Flexbox3_align-items.png"
+  alt="Flexbox 3"
+  width="800"
+/>
 
 - Posicionamento
-  ![alt text](./images/README/Posicionamento1_relative.png)
-  ![alt text](./images/README/Posicionamento2_absolute.png)
+
+<img
+  src="./images/README/Posicionamento1_relative.png"
+  alt="Posicionamento 1"
+  width="800"
+/>
+<img
+  src="./images/README/Posicionamento2_absolute.png"
+  alt="Posicionamento 2"
+  width="800"
+/>
 
 - Google Fonts
-  ![alt text](./images/README/Google-fonts.png)
+
+<img
+  src="./images/README/Google-fonts.png"
+  alt="Google Fonts"
+  width="800"
+/>
 
 - Pseudoclasses
-  ![alt text](./images/README/Pseudoclasses1_checkbox.png)
-  ![alt text](./images/README/Pseudoclasses2_checked.png)
-  ![alt text](./images/README/Pseudoclasses3_disabled.png)
-  ![alt text](./images/README/Pseudoclasses4_focus.png)
-  ![alt text](./images/README/Pseudoclasses5_disabled-checked.png)
+
+<img
+  src="./images/README/Pseudoclasses1_checkbox.png"
+  alt="Pseudoclasses 1"
+  width="800"
+/>
+<img
+  src="./images/README/Pseudoclasses2_checked.png"
+  alt="Pseudoclasses 2"
+  width="800"
+/>
+<img
+  src="./images/README/Pseudoclasses3_disabled.png"
+  alt="Pseudoclasses 3"
+  width="800"
+/>
+<img
+  src="./images/README/Pseudoclasses4_focus.png"
+  alt="Pseudoclasses 4"
+  width="800"
+/>
+<img
+  src="./images/README/Pseudoclasses5_disabled-checked.png"
+  alt="Pseudoclasses 5"
+  width="800"
+/>
 
 - Pseudoelementos
-  ![alt text](./images/README/Pseudoelementos1_placeholder.png)
-  ![alt text](./images/README/Pseudoelementos2_placeholder.png)
+
+<img
+  src="./images/README/Pseudoelementos1_placeholder.png"
+  alt="Pseudoelementos 1"
+  width="800"
+/>
+<img
+  src="./images/README/Pseudoelementos2_placeholder.png"
+  alt="Pseudoelementos 2"
+  width="800"
+/>
 
 - Incorporação de conteúdo: <iframe>
-  ![alt text](./images/README/Incorporação-de-conteúdo_iframe.png)
+
+<img
+  src="./images/README/Incorporação-de-conteúdo_iframe.png"
+  alt="iframe"
+  width="800"
+/>
 
 - Formulários
-  ![alt text](./images/README/Formulário.png)
+
+<img
+  src="./images/README/Formulário.png"
+  alt="Form"
+  width="800"
+/>
 
 - BEM Flat
-  ![alt text](./images/README/Bem-flat1_index-page-header.png)
-  ![alt text](./images/README/Bem-flat2_index-nav-recipes.png)
-  ![alt text](./images/README/Bem-flat3_index-reservation-form.png)
-  ![alt text](./images/README/Bem-flat4_index-reservation-normalize.png)
+  
+<img
+  src="./images/README/Bem-flat1_index-page-header.png"
+  alt="BEM Flat 1"
+  width="800"
+/>
+<img
+  src="./images/README/Bem-flat2_index-nav-recipes.png"
+  alt="BEM Flat 2"
+  width="800"
+/>
+<img
+  src="./images/README/Bem-flat3_index-reservation-form.png"
+  alt="BEM Flat 3"
+  width="800"
+/>
+<img
+  src="./images/README/Bem-flat4_index-reservation-normalize.png"
+  alt="BEM Flat 4"
+  width="800"
+/>
 
-# Planos de melhoria do projeto:
+---
 
-- Melhor ajuste da configuração do conteúdo quando a página é minimizada e maximizada, principalmente na seção do cabeçalho.
-- Animação de alguns itens, como por exemplo: uma rotação no título "Café especial" ao abrir a página.
+## 📦 Como rodar o projeto localmente
+
+- Clone o repositório:
+```bash
+git clone git@github.com:VanessaYuriAB/web_project_coffeeshop.git
+cd web_project_coffeeshop
+```
+
+- Este é um projeto estático (_HTML e CSS_). Para visualizar:
+  - Abra o arquivo `index.html` no navegador  
+  **ou**
+  - Use uma extensão como `Live Server` no `VS Code`
+
+---
+
+## 🔧 Planos de melhoria do projeto
+
+- Aprimorar o ajuste do comportamento do layout em diferentes larguras de tela, especialmente na seção do cabeçalho
+- Adicionar animações em alguns elementos, como uma rotação no título _“Café especial”_ ao carregar a página

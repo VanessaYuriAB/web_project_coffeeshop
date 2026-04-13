@@ -1,28 +1,69 @@
-# ☕ Projeto 4: Triple Espresso
+# ☕ Triple Espresso — Landing Page de Cafeteria
 
-A página da Cafeteria Triple Espresso é o quarto projeto do bootcamp de Desenvolvimento Web da TripleTen.
+Projeto de landing page desenvolvido como parte do **Sprint 4 do bootcamp de**
+**Desenvolvimento Web da TripleTen Brasil**, com foco em **HTML e CSS avançados**,
+organização de código com **BEM Flat** e fidelidade a layout profissional.
 
-O projeto foi desenvolvido com HTML e CSS avançados, contando com menos instruções de roteiro em comparação aos projetos anteriores, exigindo maior autonomia na implementação do layout e dos estilos.
+O projeto simula o site de um café fictício localizado em uma biblioteca, combinando
+tipografia elegante, layout estruturado e boas práticas de desenvolvimento front-end.
+
+> _A interface final da página inicial contém cabeçalho, seção de receitas, formulário
+> de reserva e rodapé._
 
 ---
 
-## 🎯 Objetivo do projeto
+## 🔗 Demonstração
+
+➡️ **Deploy:** https://vanessayuriab.github.io/web_project_coffeeshop
+
+---
+
+## 🎯 Objetivo do Projeto
 
 - Consolidar o uso de **HTML5 semântico**
-- Criar layouts flexíveis utilizando **Flexbox**
-- Trabalhar posicionamento de elementos
-- Aplicar **pseudoclasses e pseudoelementos**
-- Desenvolver formulários estilizados
-- Utilizar **BEM Flat** para organização do código CSS
-- Incorporar conteúdo externo com `<iframe>`
+- Criar layouts estruturados usando **Flexbox**
+- Trabalhar **posicionamento relativo e absoluto**
+- Aplicar **metodologia BEM Flat** na organização do CSS
+- Estilizar **formulários HTML**
+- Incorporar conteúdo externo usando `<iframe>`
+- Seguir um **design profissional com requisitos rígidos de layout**
 
 ---
 
-## 🛠️ Técnicas e recursos aplicados
+## ⚙️ Funcionalidades
 
-HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoelementos, Incorporação de conteúdo (iframe), Formulários e BEM (Flat).
+- Navegação com âncoras funcionais
+- Seção de receitas com vídeos incorporados do YouTube
+- Formulário de reserva com validação nativa (`required`)
+- Estados de hover e foco (`:hover`, `:focus`)
+- Layout centralizado e adaptado para telas grandes (≥ 1100px)
+
+> ⚠️ Observação: o formulário é visual e estrutural. A lógica de envio pode ser
+> futuramente implementada com `JavaScript`.
+
+---
+
+## 🛠️ Tecnologias e Recursos Utilizados
 
 - HTML5 semântico
+- CSS3 (Flexbox, posicionamento, pseudoclasses e pseudoelementos)
+- Google Fonts
+- Metodologia BEM Flat (Block / Element / Modifier)
+- Incorporação de conteúdo com `<iframe>`
+- Formulários HTML
+- Normalize.css
+- Prettier
+- Git & GitHub
+
+---
+
+## 📸 Implementação Técnica (Screenshots)
+
+Esta seção reúne **evidências visuais da implementação técnica do projeto**,
+demonstrando a aplicação prática dos conceitos utilizados durante o
+desenvolvimento.
+
+### HTML5 semântico:
 
 <img
   src="./images/README/Semantica1_html.png"
@@ -60,7 +101,9 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Flexbox
+---
+
+### CSS3 - Flexbox:
 
 <img
   src="./images/README/Flexbox1_justify-content.png"
@@ -78,7 +121,9 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Posicionamento
+---
+
+### CSS3 - Posicionamento:
 
 <img
   src="./images/README/Posicionamento1_relative.png"
@@ -91,15 +136,9 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Google Fonts
+---
 
-<img
-  src="./images/README/Google-fonts.png"
-  alt="Google Fonts"
-  width="800"
-/>
-
-- Pseudoclasses
+### CSS3 - Pseudoclasses e Pseudoelementos:
 
 <img
   src="./images/README/Pseudoclasses1_checkbox.png"
@@ -127,8 +166,6 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Pseudoelementos
-
 <img
   src="./images/README/Pseudoelementos1_placeholder.png"
   alt="Pseudoelementos 1"
@@ -140,7 +177,9 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Incorporação de conteúdo: <iframe>
+---
+
+### Incorporação de conteúdo - `<iframe>`:
 
 <img
   src="./images/README/Incorporação-de-conteúdo_iframe.png"
@@ -148,7 +187,9 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- Formulários
+---
+
+### Formulários HTML - `<form>`:
 
 <img
   src="./images/README/Formulário.png"
@@ -156,8 +197,20 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
   width="800"
 />
 
-- BEM Flat
-  
+---
+
+### Google Fonts:
+
+<img
+  src="./images/README/Google-fonts.png"
+  alt="Google Fonts"
+  width="800"
+/>
+
+---
+
+### Organização CSS - BEM Flat:
+
 <img
   src="./images/README/Bem-flat1_index-page-header.png"
   alt="BEM Flat 1"
@@ -181,22 +234,73 @@ HTML5 semântico, Flexbox, Posicionamento, Google Fonts, Pseudoclasses, Pseudoel
 
 ---
 
-## 📦 Como rodar o projeto localmente
+## 🗂️ Estrutura do Projeto
 
-- Clone o repositório:
 ```bash
-git clone git@github.com:VanessaYuriAB/web_project_coffeeshop.git
-cd web_project_coffeeshop
+web_project_coffeeshop/
+├── .vscode/
+├── blocks/
+│   └── # Estilos CSS organizados por bloco (BEM Flat)
+├── images/
+│   ├── README/
+│   └── # Imagens do projeto
+├── pages/
+│   └── index.css # Arquivo central de imports
+├── vendor/
+│   └── normalize.css
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── favicon.ico
+├── index.html
+└── README.md
 ```
-
-- Este é um projeto estático (_HTML e CSS_). Para visualizar:
-  - Abra o arquivo `index.html` no navegador  
-  **ou**
-  - Use uma extensão como `Live Server` no `VS Code`
 
 ---
 
-## 🔧 Planos de melhoria do projeto
+## 🚀 Como executar o projeto localmente
 
-- Aprimorar o ajuste do comportamento do layout em diferentes larguras de tela, especialmente na seção do cabeçalho
-- Adicionar animações em alguns elementos, como uma rotação no título _“Café especial”_ ao carregar a página
+```Shell
+# Clone o repositório
+git clone git@github.com:VanessaYuriAB/web_project_coffeeshop.git
+
+# Acesse a pasta
+cd web_project_coffeeshop
+```
+
+Depois:
+
+- Abra o arquivo `index.html` diretamente no navegador
+
+  ou
+
+- Utilize uma extensão como o `Live Server` no `VS Code`
+
+---
+
+## 🔍 Destaques Técnicos
+
+- Uso consistente de `HTML semântico` (`header`, `main`, `section`, `footer`, `nav`)
+- `CSS` _modularizado_ por bloco conforme `BEM Flat`
+- Nenhum estilo aplicado diretamente por seletores de tag
+- Importação correta do `normalize.css`
+- Fidelidade total ao layout fornecido no design (1440px)
+
+---
+
+## 🔧 Possíveis Melhorias Futuras
+
+- Adicionar **responsividade completa** para dispositivos móveis
+- Implementar **interatividade com `JavaScript`** (envio real do formulário)
+- Melhorar **acessibilidade** (`aria-labels`, contraste, navegação por teclado)
+- Adicionar **animações** sutis com `CSS` ou `JS`
+- Publicar versão otimizada para performance
+
+---
+
+## 👩‍💻 Autora
+
+Vanessa Yuri A. Brito
+
+Aplicativo _front-end_ desenvolvido durante a minha _formação em Desenvolvimento Web no
+Bootcamp da Triple Ten Brasil_.

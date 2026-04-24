@@ -12,9 +12,11 @@ tipografia elegante, layout estruturado e boas práticas de desenvolvimento fron
 
 ---
 
-## 🔗 Demonstração
+## 🔗 Visualização do Projeto
 
-➡️ **Deploy:** https://vanessayuriab.github.io/web_project_coffeeshop
+Está disponível via:
+
+➡️ **GitHub Pages:** https://vanessayuriab.github.io/web_project_coffeeshop
 
 ---
 
@@ -54,6 +56,60 @@ tipografia elegante, layout estruturado e boas práticas de desenvolvimento fron
 - Normalize.css
 - Prettier
 - Git & GitHub
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```bash
+web_project_coffeeshop/
+├── .vscode/
+├── blocks/
+│   └── # Estilos CSS organizados por bloco (BEM Flat)
+├── images/
+│   ├── README/
+│   └── # Imagens do projeto
+├── pages/
+│   └── index.css # Arquivo central de imports
+├── vendor/
+│   └── normalize.css
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── favicon.ico
+├── index.html
+└── README.md
+```
+
+---
+
+## 🚀 Como executar o projeto localmente
+
+```Shell
+# Clone o repositório
+git clone git@github.com:VanessaYuriAB/web_project_coffeeshop.git
+
+# Acesse a pasta
+cd web_project_coffeeshop
+```
+
+Depois:
+
+- Abra o arquivo `index.html` diretamente no navegador
+
+  ou
+
+- Utilize uma extensão como o `Live Server` no `VS Code`
+
+---
+
+## 🔍 Destaques Técnicos
+
+- Uso consistente de `HTML semântico` (`header`, `main`, `section`, `footer`, `nav`)
+- `CSS` _modularizado_ por bloco conforme `BEM Flat`
+- Nenhum estilo aplicado diretamente por seletores de tag
+- Importação correta do `normalize.css`
+- Fidelidade total ao layout fornecido no design (1440px)
 
 ---
 
@@ -231,60 +287,6 @@ desenvolvimento.
   alt="BEM Flat 4"
   width="800"
 />
-
----
-
-## 🗂️ Estrutura do Projeto
-
-```bash
-web_project_coffeeshop/
-├── .vscode/
-├── blocks/
-│   └── # Estilos CSS organizados por bloco (BEM Flat)
-├── images/
-│   ├── README/
-│   └── # Imagens do projeto
-├── pages/
-│   └── index.css # Arquivo central de imports
-├── vendor/
-│   └── normalize.css
-├── .editorconfig
-├── .gitignore
-├── .prettierignore
-├── favicon.ico
-├── index.html
-└── README.md
-```
-
----
-
-## 🚀 Como executar o projeto localmente
-
-```Shell
-# Clone o repositório
-git clone git@github.com:VanessaYuriAB/web_project_coffeeshop.git
-
-# Acesse a pasta
-cd web_project_coffeeshop
-```
-
-Depois:
-
-- Abra o arquivo `index.html` diretamente no navegador
-
-  ou
-
-- Utilize uma extensão como o `Live Server` no `VS Code`
-
----
-
-## 🔍 Destaques Técnicos
-
-- Uso consistente de `HTML semântico` (`header`, `main`, `section`, `footer`, `nav`)
-- `CSS` _modularizado_ por bloco conforme `BEM Flat`
-- Nenhum estilo aplicado diretamente por seletores de tag
-- Importação correta do `normalize.css`
-- Fidelidade total ao layout fornecido no design (1440px)
 
 ---
 
